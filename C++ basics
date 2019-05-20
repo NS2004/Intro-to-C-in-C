@@ -6,11 +6,11 @@ int main()
     int choice;
     while (choice != 5) {
     
-        cout << "\nSelect a topic to learn more.\n1)About the language\n2)Purpose of the language\n3)Integration\n4)Differences\n5)Exit";
+        cout << "\nSelect a topic to learn more.\n1)About the language\n2)Purpose of the language\n3)Integration\n4)Differences\n5)Exit\n";
         cin >> choice;
         
         if (choice == 1) {
-            cout << "\nThe language I chose to research is C++.\nI chose C++ as it is one of the most commonly used programming languages in the world. C++ is used in everything from UNIX based OS's to Open GL!\nI hoped to learn the basics of programming in C++ like I/O's and object orientation.";
+            cout << "The language I chose to research is C++.\nI chose C++ as it is one of the most commonly used programming languages in the world. C++ is used in everything from UNIX based OS's to Open GL!\nI hoped to learn the basics of programming in C++ like I/O's and object orientation.";
         }
         
         if (choice == 2) {
