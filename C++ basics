@@ -10,17 +10,17 @@ int main()
         cin >> choice;
         
         if (choice == 1) {
-            cout << "The language I chose to research is C++.\nI chose C++ as it is one of the most commonly used programming languages in the world. C++ is used in everything from UNIX based OS's to Open GL!\nI hoped to learn the basics of programming in C++ like I/O's and object orientation.";
+            cout << "\nThe language I chose to research is C++.\nI chose C++ as it is one of the most commonly used programming languages in the world. C++ is used in everything from UNIX based OS's to Open GL!\nI hoped to learn the basics of programming in C++ like I/O's and object orientation.";
         }
         
         if (choice == 2) {
             cout << "\nC++ is mainly used in visual designs and creating applications.";
         }
         if (choice == 3) {
-            cout << "C++ utilizes iteration through for loops and while loops. It also uses selection in boolean statements..\nC++ also uses selection through the use of if/else statements, so when a condition is true, an operation will be executed.";
+            cout << "\nC++ utilizes iteration through for loops and while loops. It also uses selection in boolean statements..\nC++ also uses selection through the use of if/else statements, so when a condition is true, an operation will be executed.";
         }
         if (choice == 4) {
-            cout << "C++ is a semi-object oriented languge made for running several seperate programs at one, while JS is a top-down based language.\nHTML is used primarily for text creation and JS is within HTML for UI integration.";
+            cout << "\nC++ is a semi-object oriented languge made for running several seperate programs at one, while JS is a top-down based language.\nHTML is used primarily for text creation and JS is within HTML for UI integration.";
         }
         if (choice == 5) {
             break;
