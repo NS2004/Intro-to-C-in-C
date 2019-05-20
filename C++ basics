@@ -14,8 +14,16 @@ int main()
         }
         
         if (choice == 2) {
-            cout << "\nC++ is mainly used in visual designs and creating applications."
+            cout << "\nC++ is mainly used in visual designs and creating applications.";
         }
-        cout << "C++ utilizes iteration through for loops and while loops. It also uses selection in boolean statements..\nC++ also uses selection through the use of if/else statements, so when a condition is true, an operation will be executed.";
+        if (choice == 3) {
+            cout << "C++ utilizes iteration through for loops and while loops. It also uses selection in boolean statements..\nC++ also uses selection through the use of if/else statements, so when a condition is true, an operation will be executed.";
+        }
+        if (choice == 4) {
+            cout << "C++ is a semi-object oriented languge made for running several seperate programs at one, while JS is a top-down based language.\nHTML is used primarily for text creation and JS is within HTML for UI integration.";
+        }
+        if (choice == 5) {
+            break;
+        }
     }
 }
