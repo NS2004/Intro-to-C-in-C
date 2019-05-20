@@ -1,0 +1,21 @@
+#include <iostream>
+#include <stdio.h>
+using namespace std;
+int main()
+{
+    int choice;
+    while (choice != 5) {
+    
+        cout << "\nSelect a topic to learn more.\n1)About the language\n2)Purpose of the language\n3)Integration\n4)Differences\n5)Exit";
+        cin >> choice;
+        
+        if (choice == 1) {
+            cout << "\nThe language I chose to research is C++.\nI chose C++ as it is one of the most commonly used programming languages in the world. C++ is used in everything from UNIX based OS's to Open GL!\nI hoped to learn the basics of programming in C++ like I/O's and object orientation.";
+        }
+        
+        if (choice == 2) {
+            cout << "\nC++ is mainly used in visual designs and creating applications."
+        }
+        cout << "C++ utilizes iteration through for loops and while loops. It also uses selection in boolean statements..\nC++ also uses selection through the use of if/else statements, so when a condition is true, an operation will be executed.";
+    }
+}
